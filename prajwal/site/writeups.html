@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CTF Write-ups — Prajwal</title>
+  <meta name="description" content="CTF write-ups by Prajwal: Android APK reverse engineering, TLS traffic decryption in Wireshark, and forensic analysis of crafted Excel files.">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#0a0f16">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="CTF Write-ups — Prajwal">
+  <meta property="og:description" content="APK reverse engineering, TLS decryption in Wireshark, Excel artefact forensics.">
+  <meta name="twitter:card" content="summary">
+  <link rel="preload" href="assets/fonts/space-grotesk-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap nav-inner">
+      <a class="brand" href="index.html" aria-label="Prajwal — home"><img class="brand-mark" src="assets/logo.svg" alt="" width="28" height="28"></a>
+      <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="site-nav">menu</button>
+      <nav id="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="writeups.html">Write-ups</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="cv.html">CV</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li class="nav-cta"><a class="btn btn-primary" href="cv.html">Download CV</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <section class="section" aria-labelledby="wu-h">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <h1 id="wu-h" class="page-title">Write-ups</h1>
+            <p class="lead page-lead">Incident-report style: summary, evidence, findings, lessons. Same format every time, so the reasoning is easy to follow.</p>
+          </div>
+        </div>
+
+        <div class="rows">
+          <article class="row-item">
+            <div>
+              <h2><a href="writeups/apk-reverse-engineering.html">Android APK reverse engineering</a></h2>
+              <p class="row-meta">Reverse engineering · Android</p>
+              <p>Uncovered hidden logic inside an Android APK to recover flags — static analysis, decompilation and reading what the app did not want shown.</p>
+              <ul class="tags">
+                <li class="tag">Reverse engineering</li>
+                <li class="tag">APK analysis</li>
+                <li class="tag">Static analysis</li>
+              </ul>
+            </div>
+            <div class="row-side">
+              <div class="row-links">
+                <a href="writeups/apk-reverse-engineering.html">Read</a>
+                <a data-writeup-link="apk" data-external="true" href="#">External</a>
+                <span data-soon hidden class="muted mono">external link pending</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="row-item">
+            <div>
+              <h2><a href="writeups/tls-decryption-wireshark.html">TLS traffic decryption in Wireshark</a></h2>
+              <p class="row-meta">Network traffic analysis · Wireshark</p>
+              <p>Decrypted protected TLS traffic in Wireshark to recover the data inside a capture — following the handshake, finding the keys, rebuilding the stream.</p>
+              <ul class="tags">
+                <li class="tag">Network analysis</li>
+                <li class="tag">Wireshark</li>
+                <li class="tag">TLS</li>
+              </ul>
+            </div>
+            <div class="row-side">
+              <div class="row-links">
+                <a href="writeups/tls-decryption-wireshark.html">Read</a>
+                <a data-writeup-link="tls" data-external="true" href="#">External</a>
+                <span data-soon hidden class="muted mono">external link pending</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="row-item">
+            <div>
+              <h2><a href="writeups/excel-forensics.html">Forensic analysis of crafted Excel files</a></h2>
+              <p class="row-meta">File and artefact forensics · Excel</p>
+              <p>Analysed crafted Excel files to extract hidden artefacts — because a spreadsheet is just a zip file wearing a suit.</p>
+              <ul class="tags">
+                <li class="tag">File forensics</li>
+                <li class="tag">Artefact recovery</li>
+                <li class="tag">Excel</li>
+              </ul>
+            </div>
+            <div class="row-side">
+              <div class="row-links">
+                <a href="writeups/excel-forensics.html">Read</a>
+                <a data-writeup-link="excel" data-external="true" href="#">External</a>
+                <span data-soon hidden class="muted mono">external link pending</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div>© <span data-year>2026</span> Prajwal · <span data-site="country">Nepal</span></div>
+      <div class="footer-links">
+        <a href="cv.html">CV</a>
+        <a data-link="github" href="#">GitHub</a>
+        <a data-link="linkedin" href="#">LinkedIn</a>
+        <a data-link="tryhackme" href="#">TryHackMe</a>
+        <span>Last updated <span data-site="lastUpdated">October 2026</span></span>
+      </div>
+    </div>
+  </footer>
+
+  <script defer src="js/content.js"></script>
+  <script defer src="js/main.js"></script>
+</body>
+</html>

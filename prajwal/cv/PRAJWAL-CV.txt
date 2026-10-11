@@ -1,0 +1,77 @@
+================================================================================
+PRAJWAL
+================================================================================
+[Email] | [Phone, optional] | [City], Nepal | [LinkedIn] | [GitHub] |
+[TryHackMe or HackTheBox profile]
+
+--------------------------------------------------------------------------------
+PROFILE
+--------------------------------------------------------------------------------
+Cyber security student (BSc Hons Ethical Hacking and Cyber Security, Coventry
+University) with hands-on skills in security operations, digital forensics,
+reverse engineering, network traffic analysis, and secure development. Built a
+SOC case management platform from scratch, investigated a simulated hospital
+ransomware attack, and explored privilege separation and sandboxing in C.
+Seeking an entry-level SOC analyst role or internship where I can triage alerts,
+investigate incidents, and keep widening my skill set.
+
+--------------------------------------------------------------------------------
+EDUCATION
+--------------------------------------------------------------------------------
+BSc (Hons) Ethical Hacking and Cyber Security
+Softwarica College of IT & E-Commerce, affiliated with Coventry University
+[Start year] - [Expected graduation year] | [Grade, optional]
+Relevant modules: Programming and Operating Systems (ST5039CMD), Digital
+Forensics (ST5036CMD), Internet and Web Technologies (ST5041CMD)
+
+--------------------------------------------------------------------------------
+PROJECTS
+--------------------------------------------------------------------------------
+
+SecOpsHub - SOC Case Management Platform (Internet and Web Technologies)
+- Built a SOC case management platform end to end in vanilla HTML, CSS, and
+  JavaScript, with no frameworks.
+- Delivered a split-panel animated login, dark sidebar navigation, and a
+  dashboard with stat cards.
+- Refactored CSS for efficiency and maintainability; wrote the full technical
+  report mapped to the marking rubric.
+
+Hospital Ransomware Investigation (Digital Forensics)
+- Investigated a simulated ransomware incident at a hospital using a structured
+  forensic approach.
+- Presented findings in a professional report with evidence tables and figures.
+
+OS Security Primitives in C (Programming and Operating Systems)
+- Explored OS-level security primitives in C, including privilege separation and
+  sandboxing.
+- Documented the security model with technical architecture diagrams in a full
+  written report.
+
+--------------------------------------------------------------------------------
+CTF AND PRACTICAL SECURITY WORK
+--------------------------------------------------------------------------------
+- Reverse engineered Android APKs to uncover hidden logic and recover flags.
+- Decrypted TLS traffic in Wireshark to recover protected data.
+- Analysed forensic Excel files to extract hidden artefacts.
+- Regular CTF participant with a focus on practical security tooling.
+
+--------------------------------------------------------------------------------
+TECHNICAL SKILLS
+--------------------------------------------------------------------------------
+- Security: digital forensics, incident response, reverse engineering, network
+  traffic analysis, incident investigation, CTF problem solving
+- Tools: Wireshark, Android APK analysis
+- Programming: C, JavaScript, HTML, CSS
+- Professional: technical report writing, documentation, UI design, Canva
+
+--------------------------------------------------------------------------------
+CERTIFICATIONS AND ACHIEVEMENTS
+--------------------------------------------------------------------------------
+- [Add certifications, or "in progress" with exam date]
+- [Add CTF placements or platform rank]
+
+--------------------------------------------------------------------------------
+LANGUAGES
+--------------------------------------------------------------------------------
+- English: [level]
+- Nepali: [level]

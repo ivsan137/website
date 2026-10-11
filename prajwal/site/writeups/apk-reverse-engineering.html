@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Android APK Reverse Engineering — Write-up — Prajwal</title>
+  <meta name="description" content="CTF write-up: reverse engineering an Android APK to uncover hidden logic and recover flags.">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#0a0f16">
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Android APK Reverse Engineering — Write-up">
+  <meta property="og:description" content="Uncovering hidden logic inside an Android APK in a CTF challenge.">
+  <meta name="twitter:card" content="summary">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap nav-inner">
+      <a class="brand" href="../index.html" aria-label="Prajwal — home"><img class="brand-mark" src="../assets/logo.svg" alt="" width="28" height="28"></a>
+      <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="site-nav">menu</button>
+      <nav id="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../projects.html">Projects</a></li>
+          <li><a href="../writeups.html">Write-ups</a></li>
+          <li><a href="../about.html">About</a></li>
+          <li><a href="../cv.html">CV</a></li>
+          <li><a href="../contact.html">Contact</a></li>
+          <li class="nav-cta"><a class="btn btn-primary" href="../cv.html">Download CV</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <div class="wrap article-head">
+      <a class="back-link" href="../writeups.html">← all write-ups</a>
+      <h1>Android APK reverse engineering</h1>
+
+      <dl class="meta-grid">
+        <div><dt>CHALLENGE</dt><dd>Android APK CTF</dd></div>
+        <div><dt>CATEGORY</dt><dd>Reverse engineering</dd></div>
+        <div><dt>TOOLS</dt><dd>—</dd></div>
+        <div><dt>STATUS</dt><dd>Draft</dd></div>
+      </dl>
+
+      <p class="draft-note">DRAFT — the walkthrough below is not yet written. Add your real tools, steps, evidence and result before publishing. Never publish invented steps or flags.</p>
+    </div>
+
+    <article class="wrap article">
+      <h2>Summary</h2>
+      <p>As part of CTF practice I reverse engineered Android APKs to uncover hidden logic and recover flags. The work was static in nature: taking the packaged app apart and reading what it actually does, rather than what it shows.</p>
+
+      <h2>Tools</h2>
+      <p class="muted">Add the exact tools you used for this challenge (for example apktool, jadx, or the Android SDK tooling).</p>
+
+      <h2>Steps</h2>
+      <p class="muted">Write the walkthrough in order: how you obtained the APK, how you decompiled it, what you looked for, and where the hidden logic lived.</p>
+      <ol class="bullets">
+        <li>Acquire and verify the APK — <span class="muted">fill in</span></li>
+        <li>Decompile and inspect the structure — <span class="muted">fill in</span></li>
+        <li>Locate the hidden logic / comparison — <span class="muted">fill in</span></li>
+        <li>Recover the flag — <span class="muted">fill in</span></li>
+      </ol>
+
+      <h2>Result</h2>
+      <div class="empty-note">Add what you recovered and how the challenge was solved. No flag or outcome is published here until you confirm it.</div>
+
+      <h2>Lesson learned</h2>
+      <div class="empty-note">Add the one thing this challenge taught you that you would carry into a real investigation.</div>
+
+      <p class="callout">Related work: the same reverse-engineering mindset feeds the 14-field coverage map on the <a href="../cv.html">CV page</a> — this field moved to “hands-on” because of work like this.</p>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div>© <span data-year>2026</span> Prajwal · <span data-site="country">Nepal</span></div>
+      <div class="footer-links">
+        <a href="../cv.html">CV</a>
+        <a data-link="github" href="#">GitHub</a>
+        <a data-link="linkedin" href="#">LinkedIn</a>
+        <a data-link="tryhackme" href="#">TryHackMe</a>
+        <span>Last updated <span data-site="lastUpdated">October 2026</span></span>
+      </div>
+    </div>
+  </footer>
+
+  <script defer src="../js/content.js"></script>
+  <script defer src="../js/main.js"></script>
+</body>
+</html>
